@@ -1,38 +1,39 @@
-body{
+body {
 	font-family: 'PT Sans', sans-serif;
 	background-color: #f5f5dc;
 	position: relative;
 	font-size: 20px;
 }
-header{
+
+header {
 	margin-left: 30%;
 }
 
-.block_x{
+.block_x {
 	position: relative;
 	right: 14.5%;
 }
 
-li{
+li {
 	margin: 5px;
 	padding: 0px 5px 0px 5px;
 	font-size: 20px;
 	list-style-type: none;
 
 }
-li:hover{
+
+li:hover {
 	background-color: orange;
 	width: 390px;
-	font-size:28px;
+	font-size: 28px;
 	transition-duration: 0.5s;
-  	transition-delay: 0.5s;
+	transition-delay: 0.5s;
 }
 
-li a{
-	-
-}
-
-.first_block, .second_block, .third_block, .fourth_block{
+.first_block,
+.second_block,
+.third_block,
+.fourth_block {
 	position: relative;
 	width: auto;
 	height: auto;
@@ -42,57 +43,42 @@ li a{
 	text-indent: 20px;
 	margin-bottom: 50px;
 }
-span{
+
+span {
 	margin-left: 5%;
 }
-img{
+
+img {
 	width: 75%;
 	height: 75%;
 	text-align: center;
 	margin-left: 13.5%;
 
 }
-footer img{
+
+footer img {
 	width: 20px;
-	height:20px;
+	height: 20px;
 	float: left;
 	top: 1%;
 }
 
-.youtube, .git, .sequre{
+.youtube,
+.git,
+.sequre {
 	position: relative;
 	flex: 0 0 auto;
 	margin: 0px 0px 0px 11%;
 	font-size: 20px;
 }
 
-.sequre{
+.sequre {
 	margin-top: 20px;
 	margin-left: 75%;
 	color: green;
 }
 
-dt h1{
+dt p {
 	font-size: 28px;
 	margin-top: 20px;
-}
-.block, .block_1{
-	display: flex;
-	justify-content: space-between;
-	padding: .5em;
-	box-sizing: border-box;
-
-}
-
-.style-1, .style-2, .style-3{
-	background-color: white;
-	padding: 1.5em;
-	width: 400px;
-	border: 1px solid black;
-	text-align: center;
-}
-.style-3{
-	position: absolute;
-	left: 29%;
-
 }
